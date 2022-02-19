@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
+import Test from './components/test'
 
 const App = () => {
-    return <div className="app"> render </div>
+    return <Test/>;
 };
 
 ReactDOM.render(<App/>, document.querySelector('#root') );
