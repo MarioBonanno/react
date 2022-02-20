@@ -1,0 +1,17 @@
+img {
+    width: 80px;
+    height: auto;
+}
+
+.ui.container.comments {
+    padding-top: 50px;
+}
+
+.ui.container.comments .coment {
+    display: flex;
+    align-items: center;
+}
+
+.content-text {
+    margin-left: 20px;
+}

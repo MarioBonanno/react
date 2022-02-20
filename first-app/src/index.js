@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-import Test from './components/test'
+import Comments from './comments';
 
 const App = () => {
-    return <Test/>;
+    return (
+    <div className="ui container comments">
+        <Comments/>
+    </div>
+    );
 };
 
 ReactDOM.render(<App/>, document.querySelector('#root') );
